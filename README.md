@@ -1,1 +1,1 @@
-# LazyPy-Tutorials
+# LazyPy (A Python tutorials website)
