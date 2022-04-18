@@ -205,18 +205,209 @@
             <a href="#item1">back to top</a></div>
     </div>
     <div class="item10" id="item10">
-        <img class="left1" src="http://solace.ist.rit.edu/~iste240t72/group_project2/assets/images/img1.jpg" alt="img1" title="img1">
         <h1>Python OOP</h1>
-        <p>When the snow starts flying and the lakes start freezing you can bet
-            Rochester has something going on. Rochester's holiday village festival 
-            brings the magic of the season to the heart of downtown Rochester with activities 
-            for all ages, including ice skating, a shopping village, pop-up restaurants, local 
-            craft beverages, tree lighting, Santa's workshop, VIP winter igloos, Kwanzaa and Hanukkah celebrations, and more.</p>
+        <p>
+          Object-oriented Programming (OOPs) is a programming paradigm in Python
+          that employs objects and classes. It seeks to include real-world
+          elements such as inheritance, polymorphisms, encapsulation, and so on
+          into programming. The primary idea behind OOPs is to tie the data and
+          the functions that act on it as a single unit so that no other
+          component of the code may access it.
+          <br />
+        </p>
+
+        <!-- html ordered list -->
+        <div class="left-list">
+          <h4>Main Concepts of Object-Oriented Programming (OOPs)</h4>
+          <ul class="no-bullets">
+            <li>
+              <a>Classes</a>
+            </li>
+            <li>
+              <a>Objects</a>
+            </li>
+            <li>
+              <a>Inheritance</a>
+            </li>
+            <li>
+              <a>Polymorphism</a>
+            </li>
+            <li>
+              <a>Encapsulation</a>
+            </li>
+          </ul>
+          <br>
+          <hr />
+          <br />
+
+          <h4>Classes</h4>
+          <p>
+            A class is a collection of objects. A class holds the blueprints or
+            prototypes from which the objects are built. It's a logical entity
+            with some attributes and methods. <br /><br />
+            To demonstrate the requirement for building a class, consider the
+            following scenario: suppose you wanted to monitor the number of dogs
+            with various properties such as breed and age. If you use a list,
+            the first element may be the dog's breed, and the second element
+            could be its age. Assume there are 100 distinct dogs; how would you
+            know which one is meant to be which? What if you wanted to give
+            these dogs other abilities? This lacks organization and it’s the
+            exact need for classes.
+          </p>
+
+          <h5>Creating a class:</h5>
+          <img
+            class="left1"
+            src="http://solace.ist.rit.edu/~iste240t72/group_project2/assets/images/classes2.png"
+            alt="img1"
+            title="img1"
+            style="max-width: 200px"
+          />
+        </div>
+        <hr />
+        <br />
+
+        <div class="left-list">
+          <h4>Objects</h4>
+          <p>
+            The object is an entity with a specific state and behavior. It might
+            be any real-world object, such as a mouse, keyboard, chair, table,
+            pen, and so on. Objects include integers, strings, floating-point
+            numbers, arrays, and dictionaries. An object is, more specifically,
+            any single integer or string. The number 12 is an object, as is the
+            text "Hello, world," and a list is an object that may house
+            additional objects.
+          </p>
+
+          <h5>An object is made up of:</h5>
+
+          <p>
+            The attributes of an item indicate its state. It also reflects an
+            object's properties.
+            <br />
+            Behavior is represented through an object's methods. It also
+            represents an object's response to other objects.
+            <br />
+            Identity provides an object a unique name and allows one object to
+            interact with other objects
+          </p>
+          <h5>
+            To understand the state, behavior, and identity let us take the
+            example of the class dog (explained above).
+          </h5>
+          <p>
+            The identity can be considered as the name of the dog.
+            <br />
+            State or Attributes can be considered as the breed, age, or color of
+            the dog.
+            <br />
+            The behavior can be considered as to whether the dog is eating or
+            sleeping.
+          </p>
+
+          <h5>
+            Creating a class and object with class and instance attributes:
+          </h5>
+          <img
+            class="left1"
+            src="http://solace.ist.rit.edu/~iste240t72/group_project2/assets/images/objects1.png"
+            alt="img1"
+            title="img1"
+            style="max-width: 700px"
+          />
+        </div>
+        <hr />
+        <br />
+
+        <div class="left-list">
+          <h4>Inheritance</h4>
+          <p>
+            Inheritance is the capability of one class to derive or inherit the
+            properties from another class. The class that derives properties is
+            called the derived class or child class and the class from which the
+            properties are being derived is called the base class or parent
+            class. The benefits of inheritance are:
+            <br />
+            <br />
+            1. It represents real-world relationships well.
+            <br />
+            2. It provides the reusability of a code. We don’t have to write the
+            same code again and again. Also, it allows us to add more features
+            to a class without modifying it.
+            <br />
+            3. It is transitive in nature, which means that if class B inherits
+            from another class A, then all the subclasses of B would
+            automatically inherit from class A.
+          </p>
+          <h5>Example: Inheritance in Python</h5>
+
+          <img
+            class="left1"
+            src="http://solace.ist.rit.edu/~iste240t72/group_project2/assets/images/inherit1.png"
+            alt="img1"
+            title="img1"
+            style="max-width: 700px"
+          />
+        </div>
+        <hr />
+        <br />
+
+        <div class="left-list">
+          <h4>Polymorphism</h4>
+          <p>
+            Polymorphism simply refers to the existence of several forms.<br />
+            For example, if we need to identify whether a specific species of
+            bird can fly or not, we may accomplish it using polymorphism and a
+            single function.
+          </p>
+          <h5>Example: Polymorphism in Python</h5>
+
+          <img
+            class="left1"
+            src="http://solace.ist.rit.edu/~iste240t72/group_project2/assets/images/poly.png"
+            alt="img1"
+            title="img1"
+            style="max-width: 700px"
+          />
+        </div>
+        <hr />
+        <br />
+        <div class="left-list">
+          <h4>Encapsulation</h4>
+          <p>
+            One of the core principles of object-oriented programming is
+            encapsulation. It discusses the concept of data wrapping and the
+            methods that interact with data as a single unit. This prevents data
+            from being accidentally modified by restricting direct access to
+            variables and methods. An object's variable can only be altered by
+            an object's method to prevent unintentional changes. These variables
+            are referred to as private variables.
+            <br />
+            <br />
+            Encapsulation is a way to hide the implementation details of a
+            class.<br />
+            A class is an example of encapsulation as it encapsulates all the
+            data that is member functions, variables, etc.
+          </p>
+
+          <h5>Example: Encapsulation in Python</h5>
+
+          <img
+            class="left1"
+            src="http://solace.ist.rit.edu/~iste240t72/group_project2/assets/images/encap.png"
+            alt="img1"
+            title="img1"
+            style="max-width: 700px"
+          />
+        </div>
+        <hr />
+        <br />
+
+        <div class="return-link">
+          <a href="#item1">back to top</a>
+        </div>
+      </div>
         
-        <p>So come on down this winter and enjoy 13 days of fun and a slew of pop-up events and activities.</p>
-        <div class="return-link"> 
-            <a href="#item1">back to top</a></div>
-    </div>
     <div class="item11" id="item11">
         <img class="left1" src="http://solace.ist.rit.edu/~iste240t72/group_project2/assets/images/img1.jpg" alt="img1" title="img1">
         <h1>Data Structures</h1>
